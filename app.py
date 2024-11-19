@@ -4,7 +4,6 @@ import json
 import os
 import random
 
-// hihi
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
@@ -102,5 +101,5 @@ def get_catalog():
         return jsonify({"error": str(e)}), 500
 
 
-# To activate the virtual environment
-# vevn\Scripts\Activate
+# To activate the virtual environment on the command prompt
+# new_venv\Scripts\Activate
