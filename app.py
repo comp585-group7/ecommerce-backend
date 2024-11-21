@@ -9,7 +9,7 @@ CORS(app)  # Enable CORS for all routes
 
 CART_FILE = 'cart.json'
 PRODUCT_LIST = 'product.json'
-CATALOG_LIST = 'data-ctlg.json'
+CATALOG_LIST = 'catalog.json'
 
 # Function that randomizes the featured items
 @app.route('/api/products/featured', methods=['GET'])
@@ -83,23 +83,25 @@ def remove_from_cart(item_id):
     else:
         return jsonify({'message': f'Item {item_id} not found in cart'}), 404
 
-if __name__ == '__main__':
-    app.run(debug=True)
-
-
 # Function to manage the cart, to be implemented
-@app.route('/api/catalog', methods=['GET'])
+@app.route('/api/products/catalog', methods=['GET'])
 def get_catalog():
     try:
         # Load the catalog from the JSON file
         with open(CATALOG_LIST, 'r') as file:
             data = json.load(file)
-            products = data.get('categories', [])
+            categories = data.get('categories', [])  # Make sure to fetch categories
 
-        return jsonify({'categories'})
+        # Return the categories in a JSON response
+        return jsonify({'categories': categories})
     except Exception as e:
+        print(e)
         return jsonify({"error": str(e)}), 500
 
+
+# Put the routes above the main function
+if __name__ == '__main__':
+    app.run(debug=True)
 
 # To activate the virtual environment on the command prompt
 # new_venv\Scripts\Activate

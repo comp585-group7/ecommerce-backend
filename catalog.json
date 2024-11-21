@@ -1,0 +1,85 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Shirt",
+        "image": "https://i.ibb.co/QNGzKck/product-1.png"
+      },
+      {
+        "id": 2,
+        "name": "Winter Jacket",
+        "image": "https://i.ibb.co/0Gxn696/product-2.png"
+      },
+      {
+        "id": 3,
+        "name": "Jacket",
+        "image": "https://i.ibb.co/mHN04GV/product-3.png"
+      },
+      {
+        "id": 4,
+        "name": "Short",
+        "image": "https://i.ibb.co/CWNb4DV/product-4.png"
+      },
+      {
+        "id": 5,
+        "name": "Jean",
+        "image": "https://i.ibb.co/1b03vLk/product-5.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Boot",
+        "image": "https://i.ibb.co/9hMfYJj/product-6.png"
+      },
+      {
+        "id": 7,
+        "name": "Sneaker",
+        "image": "https://i.ibb.co/ZGnrDJK/product-7.jpg"
+      },
+      {
+        "id": 8,
+        "name": "Cap",
+        "image": "https://i.ibb.co/34kFkq3/product-8.png"
+      },
+      {
+        "id": 9,
+        "name": "Watch",
+        "image": "https://i.ibb.co/Q9FWmQt/product-9.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Sunglass",
+        "image": "https://i.ibb.co/D4B1gNW/product-10.jpg"
+      },
+      {
+        "id": 11,
+        "name": "Hat",
+        "image": "https://i.ibb.co/rw02cMS/product-11.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Bag",
+        "image": "https://i.ibb.co/R9qTmVK/product-12.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Belt",
+        "image": "https://i.ibb.co/Hq2xvJJ/product-13.jpg"
+      },
+      {
+        "id": 14,
+        "name": "Scarf",
+        "image": "https://i.ibb.co/4N20R7x/product-14.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Running Shoe",
+        "image": "https://i.ibb.co/f9w2wMG/product-15.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Wallet",
+        "image": "https://i.ibb.co/q1b0Zcn/product-16.jpg"
+      }
+    ]
+  }
+  
